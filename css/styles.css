@@ -74,7 +74,7 @@ p {
 
 .feature-box {
   text-align: center;
-  padding: 10%;
+  padding: 2%;
 }
 
 .icon {
@@ -88,16 +88,30 @@ p {
 
 /* Testimonial */
 
+#Experiance {
+
+  text-align: center;
+
+}
+
 #testimonials {
-  padding: 5% 5%;
+
   text-align: center;
   background-color: #DA9100;
   color: #FFF;
 }
 
-.testimonial-image {
-  width: 20%;
-  margin: 20px;
+
+
+
+.testimonial-image1 {
+  width: 15%;
+  margin: 5px;
+}
+
+.testimonial-image2 {
+  width: 18.7%;
+  margin: 5px;
 }
 
 #press {
@@ -108,12 +122,40 @@ p {
 }
 
 .press-logo {
-  width: 30%;
+  width: 17%;
   margin: 5px 5px 20px;
 }
 
 .press-logo1 {
-  width: 30%;
+  width: 25%;
   margin: 5px 5px 20px;
-  padding-top: 50px;
+  padding-top: 95px;
+}
+
+.school-logo2 {
+  width: 15%;
+}
+
+.school-logo1 {
+  width: 15%;
+}
+
+.carousel-item {
+    padding: 5% 5%;
+}
+
+
+.twitter-timeline.twitter-timeline-rendered {
+  padding: 50px !important;
+  margin-top: 35px !important;
+}
+
+
+
+#Bottom {
+
+  background-color: #DA9100;
+  text-align: center;
+  padding-bottom: 3%;
+  color: #FFF;
 }
