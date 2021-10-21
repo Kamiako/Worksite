@@ -1,37 +1,49 @@
 body {
-  font-family: "Montserrat-thick;"
+  font-family: "Montserrat-thick";
+  text-align: center;
 }
 
 #title {
-  background-color: #DA9100;
+
   color: #fff;
+  text-align: left;
 }
 
-.container-fluid {
+#title {
   padding: 3% 17%;
 }
 
-h1 {
-  font-family: "Montserrat-thick";
-  font-size: 5rem;
-  line-height: 1.5;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
 h2 {
-  font-family: "Montserrate";
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
 h3 {
-  font-family: "Montserrat";
-  font-weight: bold;
   padding: 30px;
 }
 
 p {
-  color: #8f8f8f;
+  color: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-thick";
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.colored {
+  background-color: #DA9100;
 }
 
 /* Navigation Bar */
@@ -76,13 +88,16 @@ p {
 }
 
 .feature-box {
-  text-align: center;
   padding: 2%;
 }
 
 .icon {
   color: #DA9100;
   margin-bottom: 2rem;
+}
+
+.icon2 {
+  color: #fff;
 }
 
 .icon:hover {
@@ -95,8 +110,6 @@ p {
 }
 
 #testimonials {
-  text-align: center;
-  background-color: #DA9100;
   color: #FFF;
 }
 
@@ -110,11 +123,9 @@ p {
   margin: 5px;
 }
 
-#press {
-  background-color: #DA9100;
-  text-align: center;
-  padding-bottom: 3%;
-  color: #FFF;
+.testimonial-image3 {
+  width: 15%;
+  margin: 5px;
 }
 
 .press-logo {
@@ -143,7 +154,7 @@ p {
 .twitter-timeline.twitter-timeline-rendered {
   padding: 50px !important;
   margin-top: 35px !important;
-
+  width: 50% !important;
   font-family: "Montserrat" !important;
   font-weight: bold !important;
 }
@@ -155,31 +166,27 @@ p {
 }
 
 #Bottom {
-  background-color: #DA9100;
-  text-align: center;
   padding-bottom: 3%;
   color: #FFF;
 }
 
 /* CTA Section */
 #cta {
-  text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
 }
 
 #footer {
-  text-align: center;
   padding-bottom: 3% 3%;
+background-color: #DA9100;
+
 }
 
 .social-icon {
   margin: 20px 10px;
-  text-align: center;
 }
 
 @media (max-width: 1028px) {
   #title {
-    text-align: center;
   }
 
   .title-image {
